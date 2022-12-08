@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: amitastreait/custom-github-action@v1
+        uses: amitastreait/custom-github-action@v1.1
         with:
           who-to-greet: 'Amit the Great'
       # Use the output from the `hello` step
